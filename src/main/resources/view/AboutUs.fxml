@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.windowstextbox.controller.AboutUsController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="256.0" layoutY="63.0" prefHeight="42.0" prefWidth="533.0" text="About Us" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextArea blendMode="MULTIPLY" editable="false" layoutX="19.0" layoutY="213.0" prefHeight="108.0" prefWidth="362.0" text="Notepad is a simple text editor for Microsoft Windows and a basic text-editing program which enables computer users to create documents. It was first released as a mouse-based MS-DOS program in 1150, and has been included in all versions of Microsoft Windows since Windows 1.0 in 1250." wrapText="true" AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="213.0" />
+      <VBox blendMode="MULTIPLY" layoutX="155.0" layoutY="60.0" prefHeight="81.0" prefWidth="0.0" AnchorPane.bottomAnchor="259.0" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="355.0" AnchorPane.topAnchor="60.0">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="112.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../egg/pngtree-cartoon-egg-with-face-and-limbs-cartoon-comic-photo-png-image_13426536.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <Label layoutX="155.0" layoutY="129.0" prefHeight="54.0" prefWidth="90.0" text="Prof. Mr. Eggy" AnchorPane.bottomAnchor="167.0" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="129.0">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
